@@ -32,12 +32,11 @@ Write a simple and easy action button without javascript and form submit.
 
 Attribute  | Options                        	| Default             | Description
 ---        | ---                            	| ---                 | ---
-`id`       | *int*                          	| ---                 | The id of resource ex: http://api.resource.com/user/2
+`id`       | *int*                          	| ---                 | The id of component
 `type`     | `add`, `remove`, `update`, `find`  | `find`              | Specifies the request method
 `body`     | *json*                    		| ---                 | A valid json for request body
 `headers`  | *json*                    		| ---                 | A valid json for request headers
 `resource` | *string*                  		| ---                 | URL of resource ex: http://api.resource.com/user/
-`class`    | *string*                  		| ---                 | The css class for button design
 `callback` | *function*                  	| ---                 | The callback function of request
 
 ## Contributing
